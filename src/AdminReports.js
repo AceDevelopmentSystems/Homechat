@@ -1,6 +1,7 @@
+
 import React, { useEffect, useState } from 'react';
 
-
+function AdminReports() {
   const [reports, setReports] = useState([]);
   const [loading, setLoading] = useState(false);
   const [banning, setBanning] = useState(null);
@@ -133,5 +134,6 @@ import React, { useEffect, useState } from 'react';
       )}
     </div>
   );
+}
 
 export default AdminReports;
